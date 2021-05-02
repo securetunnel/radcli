@@ -262,7 +262,10 @@ typedef enum rc_attr_id {
 
 	//!< Merit Experimental Extensions
 	PW_USER_ID=222,			//!< Its type is string.
-	PW_USER_REALM=223		//!< Its type is string.
+	PW_USER_REALM=223,		//!< Its type is string.
+
+	//!< Experimental for Voucher Device Owner
+	PW_DEVICE_OWNER=224	//!< Its type is string.
 } rc_attr_id;
 
 /* Integer Translations */
